@@ -1,0 +1,18 @@
+{
+  "name": "d4k-auth-signaling-server",
+  "version": "2.0.0",
+  "description": "Multi-Tenant Auth, OTP & WebRTC Signaling Server by D 4K Studio Private Limited",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7",
+    "socket.io": "^4.7.5"
+  }
+}
